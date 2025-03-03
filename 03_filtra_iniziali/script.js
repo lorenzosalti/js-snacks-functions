@@ -7,7 +7,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 function initialFilter(stringArray, initial) {
   const filteredNames = [];
-  for (let i = 0; i < names.length; i++) {
+  for (let i = 0; i < stringArray.length; i++) {
     const currentInitial = stringArray[i].toLowerCase();
     if (currentInitial[0] === initial.toLowerCase()) {
       filteredNames.push(stringArray[i]);
@@ -20,7 +20,7 @@ function initialFilter(stringArray, initial) {
 // versione arrow function
 // const initialFilter = (stringArray, initial) => {
 //   const filteredNames = [];
-//   for (let i = 0; i < names.length; i++) {
+//   for (let i = 0; i < stringArray.length; i++) {
 //     const currentInitial = stringArray[i].toLowerCase();
 //     if (currentInitial[0] === initial.toLowerCase()) {
 //       filteredNames.push(stringArray[i]);
