@@ -17,6 +17,19 @@ function initialFilter(stringArray, initial) {
 }
 
 
+// versione arrow function
+// const initialFilter = (stringArray, initial) => {
+//   const filteredNames = [];
+//   for (let i = 0; i < names.length; i++) {
+//     const currentInitial = stringArray[i].toLowerCase();
+//     if (currentInitial[0] === initial.toLowerCase()) {
+//       filteredNames.push(stringArray[i]);
+//     }
+//   }
+//   return filteredNames;
+// }
+
+
 // Invoca la funzione qui e stampa il risultato in console
 
 console.log(initialFilter(names, 'A'));
