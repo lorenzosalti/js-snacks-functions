@@ -5,6 +5,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+// versione function
 function initials(namesArray) {
   const initials = [];
   for (let i = 0; i < names.length; i++) {
@@ -12,6 +13,15 @@ function initials(namesArray) {
   }
   return initials;
 }
+
+// versione arrow function
+// const initials = (namesArray) => {
+//   const initials = [];
+//   for (let i = 0; i < names.length; i++) {
+//     initials.push((namesArray[i])[0]);
+//   }
+//   return initials;
+// }
 
 
 // Invoca la funzione qui e stampa il risultato in console
