@@ -5,9 +5,14 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 
+function hello(name) {
+  const helloName = 'Ciao ' + name;
+  return helloName;
+}
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+console.log(hello(userName));
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
