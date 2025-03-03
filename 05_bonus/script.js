@@ -24,7 +24,18 @@ function helloTime(name) {
   return helloName;
 }
 
-
+// versione arrow function
+// const helloTime = (name) => {
+//   let helloName = '';
+//   if (time >= 13 && time < 17) {
+//     helloName = 'Buon pomeriggio ' + name;
+//   } else if (time < 13) {
+//     helloName = 'Buongiorno ' + name;
+//   } else {
+//     helloName = 'Buonasera ' + name;
+//   }
+//   return helloName;
+// }
 
 // Invoca la funzione qui e stampa il risultato in console
 
